@@ -8,7 +8,8 @@ bike_service = BikeService()
 @bike_blueprint.route('/')
 def index():
     bikes = bike_service.get_all_bikes()
-    return render_template('index.html', bikes=bikes)
+    total_price = bike_service.get_total_price()
+    return render_template('index.html', bikes=bikes, total_price=total_price)
 
 
 @bike_blueprint.route('/add', methods=['POST'])
@@ -45,3 +46,8 @@ def delete_bike(bake_id):
         return str(e), 400
 
     return redirect(url_for('bike.index'))
+
+def get_total_price(self):
+    bikes = self.get_all_bikes()
+    total_price = sum(bike.price for bike in bikes if bike.status == "Vendida")
+    return total_price

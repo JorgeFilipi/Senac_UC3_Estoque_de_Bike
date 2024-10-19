@@ -15,3 +15,8 @@ class BikeService:
 
     def delete_bike(self, bake_id):
         BikeRepository.delete_bike(bake_id)
+
+    def get_total_price(self):
+        bikes = self.get_all_bikes()
+        total_price = sum(bike.price for bike in bikes if bike.status == "Vendida")
+        return total_price
