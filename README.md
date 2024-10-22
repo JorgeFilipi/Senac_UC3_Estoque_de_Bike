@@ -1,5 +1,9 @@
 # Sistema de Gerenciamento de Inventário de Bicicletas
 
+##  Contato:
+- **E-mail:** [jorgefelipe1986@gmail.com](mailto:jorgefelipe1986@gmail.com)
+- **LinkedIn:** [Jorge Dias](https://www.linkedin.com/in/jorge-dias-66117629b/)
+
 ## Descrição
 
 Este é um sistema web desenvolvido com Flask para gerenciar o estoque de bicicletas de uma loja fictícia. O sistema permite adicionar novas bicicletas, visualizar bicicletas cadastradas, marcar bicicletas como vendidas e remover bicicletas do inventário.
