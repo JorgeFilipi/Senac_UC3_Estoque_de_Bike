@@ -1,7 +1,7 @@
 # Sistema de Gerenciamento de Inventário de Bicicletas
 
 ##  Contato:
-- **E-mail:** [jorgefelipe1986@gmail.com](mailto:jorgefelipe1986@gmail.com)
+- **E-mail:** [dev.jdias@gmail.com](mailto:dev.jdias@gmail.com)
 - **LinkedIn:** [Jorge Dias](https://www.linkedin.com/in/jorge-dias-66117629b/)
 
 ## Descrição
